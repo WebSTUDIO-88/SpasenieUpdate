@@ -1,0 +1,69 @@
+@import "../index/style.min.css";
+@import "../index/footer.css";
+@import "../paid_services/paid_services.css";
+.dropdown__block{
+    margin-top: 2%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dropdown_wrapper{
+    width: 49%;
+
+}
+.select{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border: 1px solid #E0E0E0;
+    font-family: "Muller",sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+}
+.select img{
+    width: 30px;
+}
+.specialists__block{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1%;
+}
+.specialists__item{
+    padding: 1em;
+    border: 1px solid #E0E0E0;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.item_icon{
+    width: 80%;
+    height: 80%;
+}
+.iten__name{
+    font-family: "Muller",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #555555;
+    line-height: 30px;
+}
+.item__description{
+    color: #7e7e7e;
+    font-family: "Muller",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.item__btns{
+    margin-top: 10%;
+}
+.plans_btn{
+    width: 150px;
+    background-color: #fff;
+    color: #da261a;
+}

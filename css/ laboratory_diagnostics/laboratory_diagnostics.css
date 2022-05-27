@@ -1,0 +1,151 @@
+@import "../index/style.min.css";
+@import "../index/footer.css";
+@import "../paid_services/paid_services.css";
+
+.content__block{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-gap: 7%;
+}
+.type_of_diagnostics{
+    margin-top: 4%;
+}
+.text_description{
+    margin-top: 4%;
+}
+.type__title{
+    font-family: "Muller",sans-serif;;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+}
+.type__items{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+}
+.type__stick{
+    margin-right: 5px;
+    width: 10px;
+    height: 2px;
+    background-image: url("../../img/index/icons/drop_stick.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.description_service{
+    font-family: "Muller",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    line-height: 150%;
+
+}
+.dropdown__title{
+    font-family: "Muller",sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+    color: #555555;
+}
+.drop_section_item{
+    font-family: "Muller",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #555555;
+    padding: 1em 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #E0E0E0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown_block{
+    transition: all 0.1s ease-out;
+    align-items: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid #E0E0E0;
+}
+.dropdown__inner{
+    color: #555555;
+    margin-top: 2%;
+}
+.block_title{
+    font-family: "Muller",sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+    color: #555555;
+}
+.block_text{
+    font-family: "Muller",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+.block_icon{
+    transition: all 0.09s ease-out;
+    width: 30px;
+    height: 30px;
+    background-image: url("../../img/index/icons/arrow-down.svg");
+    background-repeat: no-repeat ;
+    background-size:cover;
+}
+
+.block_drop_section{
+    display: none;
+}
+.drop__items{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+}
+.drop__stick{
+    margin-right: 5px;
+    width: 10px;
+    height: 2px;
+    background-image: url("../../img/index/icons/drop_stick.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.drop__title{
+    font-weight: 700;
+}
+.drop_active .block_drop_section{
+    display: flex;
+    flex-direction: column;
+}
+.drop_active .block_icon{
+    transform: rotate(180deg)
+}
+.drop_active .dropdown_block {
+    border: none;
+    background: #F0F0F0;
+    color:#E53429;
+}

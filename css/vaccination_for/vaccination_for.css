@@ -1,0 +1,79 @@
+@import "../index/style.min.css";
+@import "../index/footer.css";
+@import "../paid_services/paid_services.css";
+.content__block{
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-gap: 5%;
+    color: #555555;
+}
+.text_service p {
+    margin-top: 2%;
+}
+.vaccines__inner{
+    display: flex;
+    flex-direction: column;
+}
+.vaccines_title{
+    font-family: "Muller",sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #555555;
+}
+.vaccines_text{
+    font-size: 20px;
+    font-family:"Muller",sans-serif;
+    margin-top: 2%;
+}
+
+.vaccines__list{
+    margin-top: 2%;
+}
+.vaccines__item__wrapper{
+    font-family:"Muller",sans-serif;
+    border: 1px solid #E0E0E0;
+    padding: 1%;
+}
+.vaccines__item__wrapper:hover  .item_action_btn{
+    opacity: 100%;
+}
+
+.vaccines_active{
+    font-weight: 400;
+    font-size: 18px;
+    color: #555555;
+}
+.vaccines_noactive{
+    color: #ababab;
+}
+.vaccines__item{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    align-items: center;
+}
+.item_end{
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_start{
+    font-family:"Muller",sans-serif;
+}
+.item_action_btn{
+    transition: all 0.3s ease-out;
+    opacity: 0%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Muller",sans-serif;
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: #E53429;
+    border: none;
+}
+.item_count{
+    width: 30%;
+    text-align: right;
+}

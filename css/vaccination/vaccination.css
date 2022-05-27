@@ -1,0 +1,43 @@
+@import "../index/style.min.css";
+@import "../index/footer.css";
+@import "../paid_services/paid_services.css";
+.content__block{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    color: #555555;
+}
+.text_service p {
+    margin-top: 1%;
+}
+.description__btn{
+    display: flex;
+    margin-top: 4%;
+}
+.child{
+    margin-left: 1%;
+}
+.promo__block{
+    padding: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.promo__inner{
+    padding: 40px;
+    border: 1px solid #E0E0E0;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.promo__title{
+    font-family: "Muller",sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+}
+.promo__description{
+    font-family: "Muller",sans-serif;
+    font-size: 20px;
+}

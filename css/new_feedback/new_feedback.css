@@ -1,0 +1,194 @@
+@import "../index/style.min.css";
+@import "../index/footer.css";
+@import "../paid_services/paid_services.css";
+header{
+    background-color: #fff;
+}
+body{
+    background-color: #f0f0f0;
+}
+.main__block{
+    color: #555555;
+    padding: 3em 5em;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+.main__title{
+    font-family: "Muller",sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+}
+.user_input_block{
+    margin-top: 3%;
+}
+.form__title{
+    font-family: "Muller",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+}
+.form__block{
+    margin-top: 2%;
+}
+.form__item{
+    padding: 0.7em;
+    width: 32%;
+    border: 1px solid #e0e0e0;
+}
+.form__item::placeholder{
+    font-family: "Muller",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+}
+.theme__feedback input{
+    width: 97%;
+}
+.content__feedback input{
+    width: 97%;
+    min-height: 300px;
+}
+.content__feedback input::placeholder{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+.select__block{
+    margin-top: 2%;
+    width: 40%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #E0E0E0;
+}
+.select__icons{
+    background-image: url("../../img/index/icons/arrow-down.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.select__text{
+    font-family: "Muller",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #555555;
+}
+.attach_file__feedback .select__icons{
+    background-image: url("../../img/index/icons/clip.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 19px;
+}
+.form__warning{
+    margin-top: 2%;
+    font-family: "Muller",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #9FA19F;
+}
+.get_answer__radio{
+    font-family: "Muller",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #555555;
+    position: relative;
+    padding-left: 30px;
+}
+.get_answer__radio + .get_answer__radio{
+    margin-left: 10%;
+}
+.get_answer__radio input[type="radio"]{
+    display: none;
+}
+.get_answer__radio span{
+    height: 20px;
+    width: 20px;
+    border-radius:50%;
+    border: 3px solid #9FA19F;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+.get_answer__radio span:after{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #E53429;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    transition: all 0.1s ease-out ;
+}
+.get_answer__radio input[type="radio"]:checked ~ span:after{
+    transform: translate(-50%,-50%) scale(1);
+}
+.get_answer__main{
+    display: flex;
+    justify-content: space-between;
+}
+.get_answer__feedback .select__block{
+    width: 30%;
+    margin-top: 0;
+}
+.get_answer_street input{
+    width: 49%;
+}
+
+.get_answer__check{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Muller",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #555555;
+    position: relative;
+    padding-left: 30px;
+}
+.get_answer__check input[type="checkbox"]{
+    display: none;
+}
+.get_answer__check span{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #9FA19F;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+.get_answer__check span:after{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #E53429;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: all 0.1s ease-out ;
+}
+.get_answer__check input[type="checkbox"]:checked ~ span:after{
+    transform: translate(-50%,-50%) scale(1);
+}
+.get_answer__feedback button{
+    margin-top: 2%;
+}

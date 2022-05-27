@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Профилактические медицинские осмотры</title>
+    <link href="css/%20preventive_examinations/preventive_examinations.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header class="header" id="header">
+    <div class="header__inner">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <a class="header__logo logo" href="index.html"><img src="img/index/icons/logo.png" width="215" height="98" alt="logo"></a>
+                    <div class="header__location">Выберите адрес</div>
+                    <div class="header__search"><input type="text" placeholder="Поиск"></div>
+                    <div class="header__login">
+                        <a class="header__login-profile" href="#" target="_blank">
+                            <img src="img/index/icons/user.svg" width="24" height="24" alt="User Icon">
+                        </a>
+                        <a class="header__login-oms" href="#" target="_blank"><img src="img/index/icons/enter.svg" width="24" height="24" alt="User Icon">
+                            <div>ОМС</div>
+                        </a>
+                    </div>
+                    <a class="header__phone" href="tel:+78435801754">+7 (843) 580-17-54
+                        <div>Горячая линия</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="menu">
+            <div class="container">
+                <ul class="menu__list">
+                    <li class="menu__list-item"><a class="menu__list-link" href="paid_services.html" data-submenu-trigger>Платные услуги</a>
+                        <div class="submenu">
+                            <div class="container">
+                                <div class="submenu__inner">
+                                    <div class="submenu__box">
+                                        <ul class="submenu__list">
+                                            <li class="submenu__item"><a class="submenu__link" href="vaccination.html">Вакцинация</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Гастроэнтерология</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Гинекология</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Гирудотерапия</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Дерматология</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Дневной стационар</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="submenu__box">
+                                        <ul class="submenu__list">
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Иглорефлексотерапия</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Кардиология</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Лабораторная диагностика</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Маммография</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Массаж</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Неврология</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="submenu__box">
+                                        <ul class="submenu__list">
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Озонотерапия</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Онкомаммология</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Оториноларингология</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Офтальмология</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Помощь на дому</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Проктология</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="submenu__box">
+                                        <ul class="submenu__list">
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Пульмонология</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Рентгенография</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Терапия</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Травматология</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Ультразвуковое исследование</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Урология</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="submenu__box">
+                                        <ul class="submenu__list">
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Фармакопунктура</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Физиотерапия</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Хирургия</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Эндокринология</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Подготовка к исследованиям</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu__list-item"><a class="menu__list-link" href="#" data-submenu-trigger>Прием по ОМС</a>
+                        <div class="submenu">
+                            <div class="container">
+                                <div class="submenu__inner">
+                                    <div class="submenu__box">
+                                        <ul class="submenu__list">
+                                            <li class="submenu__item"><a class="submenu__link" href="vaccination.html">ул.Х.Такташ, д.115</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">ул.Зилантовская, д.20</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu__list-item"><a class="menu__list-link" href="payroll_specialists.html" >Прием по ДМС</a></li>
+                    <li class="menu__list-item"><a class="menu__list-link" href="#" data-submenu-trigger>Педиатрия</a>
+                        <div class="submenu">
+                            <div class="container">
+                                <div class="submenu__inner">
+                                    <div class="submenu__box">
+                                        <ul class="submenu__list">
+                                            <li class="submenu__item"><a class="submenu__link" href="vaccination.html">Врачи и цены педиатрии</a></li>
+                                            <li class="submenu__item"><a class="submenu__link" href="#">Медицинские программы педиатрии</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <li class="menu__list-item"><a class="menu__list-link" href="#">Промышленная медицина</a></li>
+                    <li class="menu__list-item"><a class="menu__list-link" href="#">Проф. осмотры</a></li>
+                    <li class="menu__list-item"><a class="menu__list-link" href="#">Контакты</a></li>
+                    <li class="menu__list-item"><a class="menu__list-link" href="#">Оставить отзыв</a></li>
+                    <li class="menu__list-item"><a class="menu__list-link" href="#">Оставить отзыв</a></li>
+                </ul>
+            </div>
+        </nav>
+        <button class="burger-menu btn" type="button">
+            <span class="burger-menu__item"></span>
+            <span class="burger-menu__item"></span>
+            <span class="burger-menu__item"></span>
+        </button>
+    </div>
+</header>
+<section class="main">
+    <div class="nav_path flex">
+        <a class="root_link">Главная</a>
+        <div>/</div>
+        <a class="child_link">Проф. осмотры</a>
+    </div>
+    <div class="content__block">
+        <div class="description_service">
+            <div class="title_service">Профилактические<br/> медицинские осмотры</div>
+            <div class="title__text">
+                В отделении поликлиники «Спасение» проводят различные виды профосмотров как для населения
+                и так для юридических лиц.
+                Своевременное и регулярное прохождение медицинского осмотра позволяет отслеживать в динамике
+                состояние здоровья коллектива, обозначить медицинские противопоказания к выполняемой ими работе.
+                И главное, выявить заболевание на ранней стадии, а значит, ускорить выздоровление.
+            </div>
+        </div>
+        <div class="dropdown_descr__block">
+            <div class="block_title">Виды медосмотров и стоимость</div>
+            <div class="dropdown__inner">
+                <div class="dropdown__wrapper">
+                    <div class="dropdown_block">
+                        <div class="block_text">Оформление медицинских книжек</div>
+                        <div class="block_icon"></div>
+                    </div>
+                    <div class="block_drop_section">
+                        <span>Пройти предварительный медицинский осмотр в поликлинике «Спасение»,
+                            могут корпоративные клиенты (имеющие договор с организацией) и физические лица.</span>
+                        <span>Для прохождения предварительного осмотра лицо предоставляет в медицинскую
+                            организацию следующие документы:</span>
+                        <div class="drop__items" >
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">Направление от работодателя с указанием должности и вредного
+                                производственного фактора;</div>
+                        </div>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">Паспорт. </div>
+                        </div>
+                        <span class="drop__title">Порядок прохождения:  </span>
+                        <span>Профосмотр проводится без предварительной записи в первой половине дня натощак,
+                            для сдачи анализов и прохождения необходимых исследований.</span>
+                        <span>Врачи — специалисты в том числе нарколог и психиатр ведут приём с
+                            понедельника по пятницу с 12:00 до 14:00</span>
+                        <span class="drop__title">По результатам предварительного медосмотра выдается:</span>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">заключение медкомиссии о профпригодности</div>
+                        </div>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">паспорт здоровья</div>
+                        </div>
+                        <button class="staff_item_action_btn">Скачать прайс</button>
+                    </div>
+                </div>
+                <div class="dropdown__wrapper">
+                    <div class="dropdown_block">
+                        <div class="block_text">Периодические медицинские осмотры в соответствии с приказом №29н</div>
+                        <div class="block_icon"></div>
+                    </div>
+                    <div class="block_drop_section">
+                        <span>Пройти предварительный медицинский осмотр в поликлинике «Спасение»,
+                            могут корпоративные клиенты (имеющие договор с организацией) и физические лица.</span>
+                        <span>Для прохождения предварительного осмотра лицо предоставляет в медицинскую
+                            организацию следующие документы:</span>
+                        <div class="drop__items" >
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">Направление от работодателя с указанием должности и вредного
+                                производственного фактора;</div>
+                        </div>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">Паспорт. </div>
+                        </div>
+                        <span class="drop__title">Порядок прохождения:  </span>
+                        <span>Профосмотр проводится без предварительной записи в первой половине дня натощак,
+                            для сдачи анализов и прохождения необходимых исследований.</span>
+                        <span>Врачи — специалисты в том числе нарколог и психиатр ведут приём с
+                            понедельника по пятницу с 12:00 до 14:00</span>
+                        <span class="drop__title">По результатам предварительного медосмотра выдается:</span>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">заключение медкомиссии о профпригодности</div>
+                        </div>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">паспорт здоровья</div>
+                        </div>
+                        <button class="staff_item_action_btn">Скачать прайс</button>
+                    </div>
+                </div>
+                <div class="dropdown__wrapper">
+                    <div class="dropdown_block">
+                        <div class="block_text">Предварительные медосмотры при трудоустройстве на работу</div>
+                        <div class="block_icon"></div>
+                    </div>
+                    <div class="block_drop_section">
+                        <span>Пройти предварительный медицинский осмотр в поликлинике «Спасение»,
+                            могут корпоративные клиенты (имеющие договор с организацией) и физические лица.</span>
+                        <span>Для прохождения предварительного осмотра лицо предоставляет в медицинскую
+                            организацию следующие документы:</span>
+                        <div class="drop__items" >
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">Направление от работодателя с указанием должности и вредного
+                                производственного фактора;</div>
+                        </div>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">Паспорт. </div>
+                        </div>
+                        <span class="drop__title">Порядок прохождения:  </span>
+                        <span>Профосмотр проводится без предварительной записи в первой половине дня натощак,
+                            для сдачи анализов и прохождения необходимых исследований.</span>
+                        <span>Врачи — специалисты в том числе нарколог и психиатр ведут приём с
+                            понедельника по пятницу с 12:00 до 14:00</span>
+                        <span class="drop__title">По результатам предварительного медосмотра выдается:</span>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">заключение медкомиссии о профпригодности</div>
+                        </div>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">паспорт здоровья</div>
+                        </div>
+                        <button class="staff_item_action_btn">Скачать прайс</button>
+                    </div>
+                </div>
+                <div class="dropdown__wrapper">
+                    <div class="dropdown_block">
+                        <div class="block_text">Предрейсовые и послерейсовые медицинские осмотры</div>
+                        <div class="block_icon"></div>
+                    </div>
+                    <div class="block_drop_section">
+                        <span>Пройти предварительный медицинский осмотр в поликлинике «Спасение»,
+                            могут корпоративные клиенты (имеющие договор с организацией) и физические лица.</span>
+                        <span>Для прохождения предварительного осмотра лицо предоставляет в медицинскую
+                            организацию следующие документы:</span>
+                        <div class="drop__items" >
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">Направление от работодателя с указанием должности и вредного
+                                производственного фактора;</div>
+                        </div>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">Паспорт. </div>
+                        </div>
+                        <span class="drop__title">Порядок прохождения:  </span>
+                        <span>Профосмотр проводится без предварительной записи в первой половине дня натощак,
+                            для сдачи анализов и прохождения необходимых исследований.</span>
+                        <span>Врачи — специалисты в том числе нарколог и психиатр ведут приём с
+                            понедельника по пятницу с 12:00 до 14:00</span>
+                        <span class="drop__title">По результатам предварительного медосмотра выдается:</span>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">заключение медкомиссии о профпригодности</div>
+                        </div>
+                        <div class="drop__items">
+                            <div class="drop__stick"></div>
+                            <div class="drop__text">паспорт здоровья</div>
+                        </div>
+                        <button class="staff_item_action_btn">Скачать прайс</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our_advantages__block">
+        <div class="advantages__title">Почему у нас?</div>
+        <div class="advantages__grid">
+            <div class="advantages__item">
+                <div class="item_number">1</div>
+                <div class="item_text">Удобно, качественно и быстро: прохождение всех специалистов занимает 3 часа</div>
+            </div>
+            <div class="advantages__item">
+                <div class="item_number">2</div>
+                <div class="item_text">Проф.осмотры как в поликлинике, так и с выездом на предприятия</div>
+            </div>
+            <div class="advantages__item">
+                <div class="item_number">3</div>
+                <div class="item_text">Возможность приобрести медицинскую книжку и пройти санитарно-гигиеническое обучение</div>
+            </div>
+            <div class="advantages__item">
+                <div class="item_number">4</div>
+                <div class="item_text">Участвуют врачи нашей поликлиники</div>
+            </div>
+            <div></div>
+            <div class="advantages__item">
+                <div class="item_number">5</div>
+                <div class="item_text">Прием нарколога и психиатра (без проведения освидетельствования)</div>
+            </div>
+            <div class="advantages__item">
+                <div class="item_number">6</div>
+                <div class="item_text">Собственная лаборатория и рентген выдают результаты исследования в кратчайшие сроки</div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+</section>
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__block">
+
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a class="footer__list-link" href="/paid-service/">Платные услуги</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/polyclinic/vaccination/">Вакцинации</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/prices/">Цены</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/about/">О клинике</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/dms/">Прием по ДМС</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/oms/taktash/">Прием по ОМС</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/management/">Руководство</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/vacancy/">Вакансии</a></li>
+
+                </ul>
+            </div>
+            <div class="footer__block">
+
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a class="footer__list-link" href="/actions/">Акции</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/news/">Новости</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/contacts/">Контакты</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/documents/">Нормативная документация</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/licenses/">Лицензия и сертификаты</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/reviews">Отзывы о клинике</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="/supervisors/">Органы надзора</a></li>
+
+                    <li class="footer__list-item"><a class="footer__list-link" href="http://anketa.rosminzdrav.ru/staticogvjustank/58/1">АНКЕТА оценки качества условий оказания услуг</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer__block">
+                <p class="footer__cookie"><a style="text-decoration: none; color:#ffffff23;" href="/documents/">Политика обработки персональных данных</a> <a href="#cookies" style="text-decoration: none; color:#ffffff23;">Политика использования файлов Cookie</a></p>
+            </div>
+
+            <div class="footer__block">
+                <div class="footer__contact">
+                    <div class="footer__address">
+                        <img src="img/index/icons/location.svg" loading="lazy" width="24" height="24" alt="Location" data-pagespeed-url-hash="4152616712" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        г. Казань, ул. Н.Назарбаева, д. 47/113                     </div>
+                    <div class="footer__worktime">
+                        <img src="img/index/icons/time.svg" loading="lazy" width="24" height="24" alt="Work Time" data-pagespeed-url-hash="2818624452" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        07:30 - 20:00                      </div>
+                    <a class="footer__phone" href="tel:+7 (843) 580-17-54">
+                        <img src="img/index/icons/phone.svg" loading="lazy" width="24" height="24" alt="Phone" data-pagespeed-url-hash="435932435" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        +7 (843) 580-17-54                      </a>
+                </div>
+                <div class="footer__contact">
+                    <div class="footer__address">
+                        <img src="img/index/icons/location.svg" loading="lazy" width="24" height="24" alt="Location" data-pagespeed-url-hash="4152616712" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        г. Казань, ул. Х.Такташ, д. 115                    </div>
+                    <div class="footer__worktime">
+                        <img src="img/index/icons/time.svg" loading="lazy" width="24" height="24" alt="Work Time" data-pagespeed-url-hash="2818624452" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        08:00 - 20:00                    </div>
+                    <a class="footer__phone" href="tel:+7 (843) 580-17-54">
+                        <img src="img/index/icons/phone.svg" loading="lazy" width="24" height="24" alt="Phone" data-pagespeed-url-hash="435932435" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        +7 (843) 580-17-54                    </a>
+                </div>
+                <div class="footer__contact">
+                    <div class="footer__address">
+                        <img src="img/index/icons/location.svg" loading="lazy" width="24" height="24" alt="Location" data-pagespeed-url-hash="4152616712" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        г. Казань, ул. Зилантовская, д. 20                    </div>
+                    <div class="footer__worktime">
+                        <img src="img/index/icons/time.svg" loading="lazy" width="24" height="24" alt="Work Time" data-pagespeed-url-hash="2818624452" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        08:00 - 20:00                    </div>
+                    <a class="footer__phone" href="tel:+7 (843) 580-17-54">
+                        <img src="img/index/icons/phone.svg" loading="lazy" width="24" height="24" alt="Phone" data-pagespeed-url-hash="435932435" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        +7 (843) 580-17-54                    </a>
+                </div>
+                <div class="footer__contact">
+                    <div class="footer__address">
+                        <img src="img/index/icons/location.svg" loading="lazy" width="24" height="24" alt="Location" data-pagespeed-url-hash="4152616712" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        г. Казань, ул. Патриса Лумумбы д.4                     </div>
+                    <div class="footer__worktime">
+                        <img src="img/index/icons/time.svg" loading="lazy" width="24" height="24" alt="Work Time" data-pagespeed-url-hash="2818624452" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        08:00 - 20:00 (пн-пт)                    </div>
+                    <a class="footer__phone" href="tel:+7 (843) 580-17-54">
+                        <img src="img/index/icons/phone.svg" loading="lazy" width="24" height="24" alt="Phone" data-pagespeed-url-hash="435932435" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        +7 (843) 580-17-54                    </a>
+                </div>
+            </div>
+            <div class="footer__block">
+                <a class="footer__logo" href="/">
+                    <svg width="156" height="60" viewBox="0 0 156 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2434 27.4476C12.8887 27.5348 13.4418 27.622 13.995 27.7964C14.5481 27.8836 15.009 28.058 15.4699 28.4068C15.9309 28.5812 16.2996 28.7556 16.6683 28.93L16.6684 28.93V33.2028H16.3918C16.2421 33.1084 16.0924 32.9884 15.928 32.8567C15.7888 32.7452 15.6391 32.6252 15.4699 32.5052L15.4699 32.5052C15.1012 32.2436 14.7324 31.982 14.2715 31.7204C13.8106 31.4588 13.3496 31.2844 12.7965 31.11C12.2434 30.9356 11.6903 30.8484 11.045 30.8484C10.3997 30.8484 9.75435 30.9356 9.10904 31.11C8.55592 31.3716 8.00279 31.7204 7.44967 32.1564C6.98874 32.6796 6.5278 33.2028 6.25124 33.9877C5.97468 34.6853 5.79031 35.6445 5.79031 36.6909C5.79031 37.8245 5.88249 38.6965 6.25124 39.4813C6.61999 40.179 7.08092 40.7894 7.54186 41.2254C8.09498 41.6614 8.6481 42.0102 9.29341 42.1846C9.93872 42.359 10.4918 42.4462 11.1372 42.4462C11.6903 42.4462 12.3356 42.359 12.8887 42.1846C13.4418 42.0102 13.995 41.7486 14.4559 41.487C14.8246 41.3126 15.2856 41.051 15.5621 40.7894C15.7143 40.6454 15.8945 40.5014 16.0565 40.3719L16.0565 40.3719L16.0565 40.3719L16.0566 40.3719C16.1888 40.2662 16.3089 40.1701 16.3918 40.0918H16.8528V44.3646L15.4699 44.8878C15.009 45.0622 14.5481 45.2366 14.0871 45.3238C13.4418 45.4982 12.8887 45.5854 12.3356 45.6726L12.3356 45.6726C11.7825 45.7598 11.045 45.847 10.1231 45.847C8.74029 45.847 7.44967 45.6726 6.25124 45.2366C5.05281 44.8006 4.03875 44.2774 3.20907 43.4926C2.37938 42.7078 1.73408 41.7486 1.27314 40.615C0.812206 39.4813 0.535645 38.0861 0.535645 36.6037C0.535645 35.2085 0.720018 33.9005 1.18095 32.7668C1.64189 31.6332 2.2872 30.5868 3.11688 29.802C3.94656 29.0172 4.96062 28.4068 6.15905 27.9708C7.35749 27.5348 8.6481 27.3604 10.1231 27.3604C10.8606 27.3604 11.5981 27.3604 12.2434 27.4476ZM25.0573 45.411H20.2636V27.622H37.1338V45.411H32.2479V31.11H25.0573V45.411ZM39.9539 44.9485L39.8073 45.3238H44.6932L45.9838 41.7486H52.8979L54.1885 45.3238H59.1321L59.1663 45.411H54.1882L52.8976 41.8358H45.9836L44.6929 45.411H39.7148L39.8992 44.975C39.9175 44.9662 39.9357 44.9573 39.9539 44.9485ZM49.8554 38.6093C47.0114 41.0392 43.7109 43.1236 39.9539 44.9485L46.7213 27.622H52.2526L59.1666 45.3238H59.1321L54.6491 33.9005C53.6585 35.0931 52.4919 36.2025 51.3212 37.31L49.487 32.2436L47.1823 38.6093L49.8554 38.6093ZM51.6992 38.6093L51.2382 37.3885C51.2659 37.3623 51.2936 37.3362 51.3212 37.31L51.7916 38.6093L51.6992 38.6093ZM72.6258 27.4476C73.2711 27.5348 73.8242 27.622 74.3773 27.7964C74.9305 27.8836 75.4836 28.058 75.9445 28.3196C76.4054 28.494 76.7742 28.6684 77.1429 28.8428V33.1156L77.1428 33.1156V28.8428L77.1427 28.8427L77.1426 28.8427L77.1426 28.8427L77.1425 28.8427C76.7738 28.6683 76.4052 28.4939 75.9443 28.3196C75.4834 28.1452 74.9303 27.9708 74.3772 27.7964C73.824 27.622 73.2709 27.5348 72.6256 27.4476C72.0375 27.3681 71.373 27.361 70.7016 27.3604C71.373 27.361 72.0377 27.3681 72.6258 27.4476ZM73.0972 31.0555C73.6053 31.2194 74.0374 31.388 74.4695 31.6332C74.9305 31.8948 75.2992 32.1564 75.668 32.418C75.8371 32.538 75.9868 32.658 76.126 32.7695L76.1261 32.7696L76.1262 32.7697C76.2905 32.9013 76.4401 33.0213 76.5898 33.1156L77.1428 33.1156H76.5896C76.4399 33.0212 76.2902 32.9012 76.1258 32.7695L76.1257 32.7694L76.1254 32.7692C75.9863 32.6577 75.8367 32.5379 75.6678 32.418C75.299 32.1564 74.9303 31.8948 74.4693 31.6332C74.0373 31.388 73.6052 31.2193 73.0972 31.0555ZM72.9945 31.0228C72.9945 31.0228 72.9944 31.0228 72.9943 31.0228C72.9253 31.001 72.8562 30.9806 72.7869 30.9615C72.8562 30.9806 72.9254 31.001 72.9945 31.0228ZM71.243 30.7612C71.2429 30.7612 71.2428 30.7612 71.2428 30.7612C71.2025 30.7612 71.1622 30.7615 71.122 30.7622C71.1623 30.7615 71.2026 30.7612 71.243 30.7612ZM69.307 31.0228C69.307 31.0228 69.3069 31.0228 69.3069 31.0228C68.7537 31.2844 68.2006 31.6332 67.6475 32.0692C67.1866 32.5924 66.7256 33.1156 66.4491 33.9005C66.1725 34.5981 65.9881 35.5573 65.9881 36.6037C65.9881 37.7373 66.0803 38.6093 66.4491 39.3941C66.8178 40.0918 67.2787 40.7022 67.7397 41.1382C68.2237 41.5197 68.7078 41.8344 69.2536 42.024C68.7078 41.8344 68.2239 41.5197 67.7399 41.1382C67.2789 40.7022 66.818 40.0918 66.4492 39.3941C66.0805 38.6093 65.9883 37.7373 65.9883 36.6037C65.9883 35.5573 66.1727 34.5981 66.4492 33.9005C66.7258 33.1156 67.1867 32.5924 67.6477 32.0692C68.2008 31.6332 68.7539 31.2844 69.307 31.0228ZM70.5053 27.3604C69.0304 27.3604 67.7398 27.5348 66.5414 27.9708L70.5053 27.3604ZM66.5414 27.9708C65.343 28.4068 64.3289 29.0172 63.4993 29.802L66.5414 27.9708ZM63.4993 29.802C62.6696 30.5868 62.0243 31.6332 61.5633 32.7668L63.4993 29.802ZM61.5633 32.7668C61.1024 33.9005 60.918 35.1213 60.918 36.5165L61.5633 32.7668ZM60.918 36.5165C60.918 37.9989 61.1946 39.3941 61.6555 40.5278L60.918 36.5165ZM61.6555 40.5278C62.1165 41.6614 62.7618 42.6206 63.5914 43.4054L61.6555 40.5278ZM63.5914 43.4054C64.4211 44.1902 65.4352 44.7134 66.6336 45.1494L63.5914 43.4054ZM66.6336 45.1494C66.6338 45.1495 66.6341 45.1496 66.6343 45.1497L66.6336 45.1494ZM70.5055 45.7598C69.1229 45.7598 67.8325 45.5855 66.6343 45.1497C67.5559 45.4112 68.5697 45.6726 69.5834 45.6726C71.9803 44.4518 74.4693 43.0566 77.1428 41.3998V40.0045H77.2351V44.2774L75.8523 44.8006C75.3914 44.975 74.9305 45.1494 74.4695 45.2366C73.8242 45.411 73.2711 45.4982 72.718 45.5854C72.1648 45.6726 71.4274 45.7598 70.5055 45.7598ZM73.2941 42.028C73.7767 41.8576 74.2505 41.6286 74.6537 41.3998C75.0225 41.2254 75.4834 40.9638 75.7599 40.7022C75.9121 40.5582 76.0922 40.4143 76.2541 40.2849L76.2543 40.2847L76.2544 40.2847C76.3866 40.179 76.5068 40.0829 76.5896 40.0045V39.9173H77.1428V40.0045H76.5898C76.5069 40.0829 76.3868 40.1789 76.2546 40.2847C76.0926 40.4141 75.9124 40.5581 75.7601 40.7022C75.4836 40.9638 75.0226 41.2254 74.6539 41.3998C74.2506 41.6287 73.7767 41.8575 73.2941 42.028ZM71.3349 42.359C71.3349 42.359 71.335 42.359 71.335 42.359C71.335 42.359 71.3351 42.359 71.3352 42.359C71.3351 42.359 71.335 42.359 71.3349 42.359ZM80.6462 45.411H94.2898V42.0102H85.5321V37.5629H93.6445V34.1621H88.1701C88.2125 34.133 88.2549 34.1039 88.2974 34.0749H85.5321V31.11H94.2898V27.622H94.2896V30.1508C94.0591 30.2816 93.8286 30.4342 93.5982 30.5868C93.3677 30.7394 93.1372 30.892 92.9068 31.0228H85.4396V34.0749H85.5321V34.1621H88.1701C85.5421 35.9614 83.0049 37.6735 80.6462 39.1324V27.622H80.6459V39.1325C80.646 39.1325 80.6461 39.1324 80.6462 39.1324V45.411ZM103.14 34.1621H110.33V27.622H115.216V45.411H110.33V37.5629H103.14V45.411H98.346V27.622H103.14V34.1621ZM124.712 38.3477V27.622H120.01V45.411H124.619L132.363 33.6388V45.411H137.157V27.622H131.994L124.712 38.3477ZM155.41 27.622V31.11H146.652V34.1621H154.764V37.5629H146.652V42.0102H155.41V45.411H141.858V27.622H155.41ZM66.6343 45.1497C66.634 45.1496 66.6337 45.1495 66.6334 45.1494L66.6343 45.1497ZM66.6334 45.1494C65.435 44.7134 64.4209 44.1902 63.5913 43.4054L66.6334 45.1494ZM63.5913 43.4054C62.7616 42.6206 62.1163 41.6614 61.6553 40.5278L63.5913 43.4054ZM61.6553 40.5278C61.1944 39.3941 60.9178 37.9989 60.9178 36.5165L61.6553 40.5278ZM60.9178 36.5165C60.9178 35.1213 61.1022 33.9005 61.5631 32.7668L60.9178 36.5165ZM61.5631 32.7668C62.0241 31.6332 62.6694 30.5868 63.4991 29.802L61.5631 32.7668ZM63.4991 29.802C64.3288 29.0172 65.3428 28.4068 66.5412 27.9708L63.4991 29.802ZM66.5412 27.9708C67.7397 27.5348 69.0303 27.3604 70.5053 27.3604L66.5412 27.9708Z" fill="#555555"></path>
+                        <path d="M0.443329 59.6248V54.7415H5.6058V59.6248H4.13081V55.8752H1.91832V59.6248H0.443329Z" fill="#555555"></path>
+                        <path d="M18.1433 54.5671C19.6182 54.5671 21.0011 55.4392 21.0011 57.1832C21.0011 58.9272 19.6182 59.7992 18.1433 59.7992C16.6683 59.7992 15.2855 58.9272 15.2855 57.1832C15.1933 55.4392 16.5761 54.5671 18.1433 54.5671ZM18.1433 55.788C17.3136 55.788 16.8526 56.3984 16.8526 57.096C16.8526 57.8808 17.3136 58.404 18.1433 58.404C18.9729 58.404 19.5261 57.7936 19.5261 57.096C19.4339 56.3984 18.9729 55.788 18.1433 55.788Z" fill="#555555"></path>
+                        <path d="M30.865 59.712C30.5884 59.712 30.3119 59.712 30.0353 59.5376V58.404C30.1275 58.404 30.2197 58.4912 30.3119 58.4912C31.1415 58.4912 31.3259 56.9216 31.4181 54.6543H35.6587V59.5376H34.1837V55.7879H32.8009C32.7087 58.0552 32.2478 59.712 30.865 59.712Z" fill="#555555"></path>
+                        <path d="M45.615 59.6248V54.7415H47.09V57.532L49.3946 54.7415H50.7774V59.6248H49.3024V56.8344L46.9978 59.6248H45.615Z" fill="#555555"></path>
+                        <path d="M60.6415 59.6248V54.7415H62.1165V56.5728H62.7619L64.0525 54.7415H65.7118L63.9603 57.1832L65.8962 59.712H64.2368L62.7619 57.6192H62.1165V59.5376H60.6415V59.6248Z" fill="#555555"></path>
+                        <path d="M75.5757 59.712C75.2991 59.712 75.0226 59.712 74.746 59.5376V58.404C74.8382 58.404 74.9304 58.4912 75.0226 58.4912C75.8523 58.4912 76.0366 56.9216 76.1288 54.6543H80.3694V59.5376H78.8944V55.7879H77.6038C77.4194 58.0552 77.0507 59.712 75.5757 59.712Z" fill="#555555"></path>
+                        <path d="M90.4179 59.6248V54.7415H91.8929V57.532L94.1975 54.7415H95.4882V59.6248H94.0132V56.8344L91.7085 59.6248H90.4179Z" fill="#555555"></path>
+                        <path d="M105.444 59.6248V54.7415H106.919V56.5728H109.04V54.7415H110.515V59.6248H109.04V57.7936H106.919V59.6248H105.444Z" fill="#555555"></path>
+                        <path d="M120.471 59.6248V54.7415H121.946V57.532L124.25 54.7415H125.541V59.6248H124.066V56.8344L121.761 59.6248H120.471Z" fill="#555555"></path>
+                        <path d="M135.59 54.7415H137.065V56.5728H137.71L139.001 54.7415H140.66L138.908 57.1832L140.844 59.712H139.185L137.71 57.7936H137.065V59.712H135.59V54.7415Z" fill="#555555"></path>
+                        <path d="M155.133 58.6656C155.225 58.6656 155.318 58.6656 155.41 58.6656V59.5376C155.133 59.6248 154.857 59.712 154.58 59.712C154.027 59.712 153.658 59.5376 153.474 59.1888C152.921 59.5376 152.368 59.7992 151.63 59.7992C150.616 59.7992 149.786 59.276 149.786 58.3168C149.786 57.096 151.077 56.66 152.091 56.66C152.46 56.66 152.921 56.7472 153.289 56.8344V56.66C153.289 56.1368 152.921 55.788 152.091 55.788C151.354 55.788 150.708 55.9624 150.247 56.1368V54.9159C150.708 54.7415 151.446 54.5671 152.275 54.5671C153.843 54.5671 154.857 55.1775 154.857 56.8344V58.404C154.764 58.5784 154.949 58.6656 155.133 58.6656ZM151.261 58.1424C151.261 58.4912 151.63 58.7528 152.091 58.7528C152.552 58.7528 152.921 58.6656 153.289 58.3168V57.532C153.105 57.4448 152.736 57.4448 152.368 57.4448C151.814 57.4448 151.261 57.6192 151.261 58.1424Z" fill="#555555"></path>
+                        <path d="M75.207 18.8146H71.0586V14.9778H67.832V18.8146H63.7758V21.8667H67.832V25.7907H71.0586V21.8667H75.207V18.8146Z" fill="#555555"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M39.852 45.0867C35.757 47.055 31.1189 48.64 25.8872 49.7712C28.0997 50.992 34.7372 52.6488 45.7996 52.1256C56.2087 51.6207 63.7124 49.1276 73.3219 43.6644C74.1715 43.1844 75.0371 42.6793 75.922 42.146C81.5382 38.7856 87.955 34.4651 96.0546 29.0116C97.1844 28.2508 98.347 27.4681 99.5446 26.6628C122.963 10.9171 137.643 11.7729 140.706 12.1772C141.1 12.2357 141.305 12.2746 141.305 12.2746C141.305 12.2746 141.103 12.2297 140.706 12.1772C139.142 11.945 134.603 11.4031 128.123 11.7514C120.01 12.2746 112.359 14.629 98.254 20.2971C84.1494 25.9652 80.3697 24.4828 76.3135 19.7739C72.2573 15.065 73.5479 0.5896 73.5479 0.5896C73.5479 0.5896 67.9245 3.11844 64.5136 15.4138C62.599 22.2515 59.4257 28.5879 54.6848 33.9914L54.6491 33.9005C53.6351 35.1213 52.4367 36.2549 51.2383 37.3885L51.2382 37.3885L51.2686 37.469C50.844 37.8554 50.4094 38.2356 49.9648 38.6093H49.8554C46.9976 41.051 43.6789 43.1438 39.8992 44.975L39.852 45.0867ZM39.852 45.0867L39.7148 45.411H44.6929L45.9836 41.8358H52.8976L54.1882 45.411H59.1663L54.6848 33.9914C53.6255 35.1988 52.4879 36.3596 51.2686 37.469L51.6992 38.6093H49.9648C47.0422 41.0658 43.685 43.2442 39.852 45.0867ZM75.922 42.146C76.3248 41.9032 76.7316 41.6546 77.1428 41.3998V39.9174H76.5896V40.0046C76.5068 40.0829 76.3867 40.1789 76.2545 40.2846L76.2544 40.2846C76.0924 40.4141 75.9122 40.5581 75.76 40.7022C75.4834 40.9638 75.0225 41.2254 74.6537 41.3998C74.1928 41.6614 73.6396 41.923 73.0865 42.0974C72.5334 42.2718 71.8881 42.359 71.335 42.359C70.6897 42.359 70.1365 42.2718 69.4912 42.0974C68.8459 41.923 68.2928 41.5742 67.7397 41.1382C67.2787 40.7022 66.8178 40.0918 66.4491 39.3941C66.0803 38.6093 65.9881 37.7373 65.9881 36.6037C65.9881 35.5573 66.1725 34.5981 66.4491 33.9005C66.7256 33.1156 67.1866 32.5924 67.6475 32.0692C68.2006 31.6332 68.7537 31.2844 69.3069 31.0228C69.9522 30.8484 70.5975 30.7612 71.2428 30.7612C71.8881 30.7612 72.4412 30.8484 72.9943 31.0228C73.5475 31.1972 74.0084 31.3716 74.4693 31.6332C74.9303 31.8948 75.299 32.1564 75.6678 32.418C75.8369 32.538 75.9866 32.658 76.1258 32.7695C76.2902 32.9012 76.4399 33.0212 76.5896 33.1156H77.1428V28.8428L77.1427 28.8427C76.7739 28.6683 76.4052 28.494 75.9443 28.3196C75.4834 28.1452 74.9303 27.9708 74.3772 27.7964C73.824 27.622 73.2709 27.5348 72.6256 27.4476C71.9803 27.3604 71.2428 27.3604 70.5053 27.3604C69.0303 27.3604 67.7397 27.5348 66.5412 27.9708C65.3428 28.4068 64.3288 29.0172 63.4991 29.802C62.6694 30.5868 62.0241 31.6332 61.5631 32.7668C61.1022 33.9005 60.9178 35.1213 60.9178 36.5165C60.9178 37.9989 61.1944 39.3941 61.6553 40.5278C62.1163 41.6614 62.7616 42.6206 63.5913 43.4054C64.4209 44.1902 65.435 44.7134 66.6334 45.1494C67.5553 45.411 68.5694 45.6726 69.5834 45.6726C70.8017 45.0521 72.0438 44.3865 73.3219 43.6644C74.171 43.1817 75.0366 42.6758 75.922 42.146ZM80.6459 39.1325V27.622H94.2896V30.1508C94.0591 30.2816 93.8286 30.4342 93.5982 30.5868C93.3677 30.7394 93.1372 30.892 92.9068 31.0228H85.4396V34.0749H88.2974C85.624 35.9061 83.0427 37.6501 80.6459 39.1325Z" fill="#555555"></path>
+                    </svg>
+                </a>
+                <a href="https://vk.com/spasenie_kzn" class="social-link">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10zm4.59-8.735c.309.29.618.58.892.905.165.196.32.398.438.624.169.324.017.68-.277.7l-1.82-.001c-.47.038-.844-.15-1.16-.468-.17-.171-.332-.35-.494-.53l-.234-.256a1.713 1.713 0 0 0-.328-.289c-.248-.16-.463-.11-.605.146-.146.261-.179.55-.192.84-.02.426-.15.537-.58.557-.92.042-1.794-.096-2.606-.555-.716-.405-1.27-.977-1.753-1.624-.94-1.262-1.66-2.647-2.308-4.071-.146-.32-.039-.493.319-.5a51.01 51.01 0 0 1 1.782 0c.242.004.402.14.495.367.321.781.715 1.525 1.208 2.215.131.184.266.367.457.497.21.143.371.096.47-.137A1.5 1.5 0 0 0 8.4 9.22a6.876 6.876 0 0 0-.03-1.629c-.05-.338-.243-.557-.584-.621-.174-.033-.148-.096-.064-.195.147-.17.285-.275.56-.275h2.057c.324.063.396.207.44.53l.002 2.262c-.004.125.063.496.29.578.171.056.287-.068.39-.178l.021-.021c.493-.518.845-1.13 1.16-1.762.138-.28.258-.568.375-.858.086-.213.22-.319.465-.315l1.98.002c.059 0 .118 0 .176.01.334.057.425.2.322.521-.157.49-.457.9-.755 1.307l-.033.044c-.155.212-.314.42-.474.63-.181.236-.363.473-.537.714-.3.417-.277.626.097.987.11.106.22.21.332.314z" fill="#999"></path></svg>	</a>
+                <div class="footer__creator"><a href="https://studio-88.ru/" target="_blank" style="text-decoration: none; color:#ffffff23;">Сайт разработан STUDIO-88</a></div>
+            </div>
+        </div>
+        <div class="footer__description">имеются противопоказания необходимо проконсультироваться со специалистом</div>
+    </div>
+</section>
+<script src="js/preventive_examinations.js">
+</script>
+</body>
+</html>

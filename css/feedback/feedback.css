@@ -1,0 +1,34 @@
+@import "../index/style.min.css";
+@import "../index/footer.css";
+@import "../paid_services/paid_services.css";
+header{
+    background-color: #fff;
+}
+body{
+    background-color: #f0f0f0;
+}
+.main__block{
+    color: #555555;
+    text-align: center;
+    justify-content: space-between;
+    padding: 3em 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+.block__title{
+    font-family: "Muller",sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+}
+.block__description{
+    font-family: "Muller",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}

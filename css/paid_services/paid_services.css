@@ -1,0 +1,327 @@
+@import "../index/style.min.css";
+@import "../index/footer.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    /*width: 1920px;*/
+    font-family: "Muller",sans-serif;
+}
+.delimiter{
+    background-color: #E0E0E0;
+    color: #E0E0E0 ;
+    border: none;
+    height: 1px;
+}
+.delimiter_footer{
+    background-color: #555555;
+    color: #555555 ;
+    border: none;
+    height: 1px;
+}
+.flex{
+    display: flex;
+}
+.nav_path{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.root_link{
+    font-size: 12px;
+    color: #999999;
+    font-weight: 500;
+    font-family: "Muller",sans-serif;
+}
+.child_link{
+    font-size: 12px;
+    color: #555555;
+    font-weight: 500;
+    font-family: "Muller",sans-serif;
+}
+.content_block{
+    margin-top: 50px;
+}
+.main{
+    margin-right: 56px;
+    margin-left: 56px;
+    margin-bottom: 10%;
+}
+.content_block{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10%;
+}
+.title_service{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Muller",sans-serif;
+    color: #555555;
+
+}
+.text_service{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+}
+.staff_title{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: "Muller",sans-serif;
+    font-size: 26px;
+    color:#555555;
+}
+.staff_item_wrapper{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 90%;
+    height: 186px;
+    border: 1px solid #E0E0E0;
+}
+.staff_item{
+    display: grid;
+    grid-template-columns: 0.8fr 3fr 1fr;
+    align-items: center;
+    height: 100%;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+    /*justify-content: space-around;*/
+}
+.staff_item_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60%;
+}
+.staff_item_icon{
+    width: 115px;
+    height: 115px;
+}
+.staff_item_action_btn{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Muller",sans-serif;
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: #E53429;
+    border: none;
+}
+.item_name{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Muller",sans-serif;
+    color: #555555;
+}
+.item_specialization{
+    font-size: 18px;
+    font-weight: 400;
+    color: #9FA19F;
+}
+.item_price_block{
+    font-size: 18px;
+}
+.initial_price-value{
+    margin-left: 5px;
+    font-weight: 500;
+    font-family: "Muller",sans-serif;
+}
+.re_price_value{
+    margin-left: 5px;
+    font-weight: 500;
+    font-family: "Muller",sans-serif;
+}
+/*header{*/
+/*    margin-left: 56px;*/
+/*    margin-right: 56px;*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*}*/
+/*.header_locate{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+/*.header_locate_icon{*/
+/*    margin-right: 2%;*/
+/*}*/
+/*.header_dropdown_btn{*/
+/*    margin-left: 2%;*/
+/*}*/
+/*.header_logo_locate{*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr 0.8fr;*/
+/*    align-items: center;*/
+/*}*/
+/*.header_main{*/
+/*    display: grid;*/
+/*    grid-template-columns: 3fr 1fr 1fr 1.2fr;*/
+/*    align-items: center;*/
+/*}*/
+/*.header_logo img{*/
+/*    width: 215px;*/
+/*}*/
+/*.header_locate_icon img{*/
+/*    width: 13px;*/
+/*}*/
+/*.header_dropdown_btn img{*/
+/*    width: 9px;*/
+/*}*/
+/*.header_account_btn{*/
+/*    margin: 0 auto;*/
+/*}*/
+/*.header_account_btn img{*/
+/*    width: 18px;*/
+/*}*/
+/*.header_insurance{*/
+/*    width: 50%;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+/*.insurance_text{*/
+/*    font-weight: 500;*/
+/*    font-family: "Muller",sans-serif;*/
+/*    font-size: 18px;*/
+/*    color: #555555;*/
+/*}*/
+/*.insurance_icon img{*/
+/*    width: 16px;*/
+/*}*/
+/*.header_search form {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    background: #fff;*/
+/*    border: 1px solid #E0E0E0;*/
+/*}*/
+/*.header_search input, button {*/
+/*    color: #9FA19F;*/
+/*    font-family: "Muller",sans-serif;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    background: transparent;*/
+/*}*/
+/*.header_search input {*/
+/*    width: 100%;*/
+/*    height: 42px;*/
+/*    padding-left: 15px;*/
+/*}*/
+/*.header_search button {*/
+/*    position: absolute;*/
+/*    top: 30%;*/
+/*    right: 0;*/
+/*    cursor: pointer;*/
+/*    background-image: url("paid_services_img/search_icon.png");*/
+/*    background-size: cover;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
+/*.header_hot_line{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*.hot_line_phone{*/
+/*    font-weight: 500;*/
+/*    font-family: "Muller",sans-serif;*/
+/*    font-size: 18px;*/
+/*    color: #E53429;*/
+/*}*/
+/*.menu{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+/*    margin-top: 25px;*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*.menu_item{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+/*.menu_item_dropdown{*/
+/*    width: 9px;*/
+/*    margin-left: 5px;*/
+
+/*}*/
+.delimiter_footer{
+    background-color: #555555;
+    color: #555555 ;
+    border: none;
+    height: 1px;
+}
+
+.footer{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    background-color: #333333;
+    color: #8b9398;
+    font-size: 17px;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 500px;
+}
+.footer__main{
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 2.5fr 1.8fr;
+}
+.contact_info_item{
+    margin-bottom: 15px;
+}
+.contact_info_item .item__inner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.contact_info_item div img {
+    width: 15px;
+    margin-right: 1%;
+}
+.footer__block__first{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__block__second{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__block__politics{
+    color: #424242;
+    height: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.footer_icons{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.footer_logo img{
+    width: 100%;
+}
+.footer_vk_icon img{
+    width: 30px;
+}
+.footer_developers_text{
+    color: #55544d;
+}
+.footer_warning{
+    margin: 0;
+    color: #4f4f4f;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing:7px;
+}
